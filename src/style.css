@@ -1,0 +1,93 @@
+/* Reset */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+button {
+	all: unset;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+p {
+	text-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+/* Layout Styles */
+
+nav {
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+	border-bottom: 1px solid black;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+
+button {
+	margin: 1rem;
+}
+/* Content Styles */
+
+button {
+	height: 2rem;
+	width: 4rem;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+/* Media Queries */
