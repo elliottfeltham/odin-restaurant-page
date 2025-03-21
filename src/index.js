@@ -1,2 +1,3 @@
-console.log("Test");
 import "./style.css";
+
+addEventListener("DOMContentLoaded", loadHome);
