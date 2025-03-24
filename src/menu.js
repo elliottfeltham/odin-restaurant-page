@@ -27,7 +27,7 @@ export default function loadMenuPage() {
 
 	menuItems.forEach((item) => {
 		const card = document.createElement("div");
-		card.classList.add("menu-card");
+		card.classList.add("card");
 
 		const title = document.createElement("h2");
 		const description = document.createElement("p");
