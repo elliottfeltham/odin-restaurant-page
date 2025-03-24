@@ -81,6 +81,10 @@ h1 {
 	margin: 2rem;
 }
 
+h2 {
+	margin: 1rem;
+}
+
 h3 {
 	margin-top: 5rem;
 }
@@ -129,4 +133,20 @@ button:hover {
 	transform: translateY(-0.5rem);
 }
 
-/* Media Queries */
+/* EDIT THIS STUFF */
+
+.menu-card {
+	border: 1px solid #fff;
+	padding: 1.5rem;
+	margin: 1rem;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
