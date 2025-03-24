@@ -85,10 +85,6 @@ h2 {
 	margin: 1rem;
 }
 
-h3 {
-	margin-top: 5rem;
-}
-
 button {
 	margin: 1rem;
 }
@@ -115,6 +111,16 @@ em {
 	margin-left: 1rem;
 }
 
+p {
+	max-width: 75ch;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid #fff;
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
 .fancy {
 	font-family: "Playfair Display", serif;
 }
@@ -132,8 +138,6 @@ button {
 button:hover {
 	transform: translateY(-0.5rem);
 }
-
-/* EDIT THIS STUFF */
 
 .menu-card {
 	border: 1px solid #fff;

@@ -8,7 +8,7 @@ export default function loadHomePage() {
 	header.textContent = "The Restaurant";
 
 	const subheading = document.createElement("h3");
-	subheading.textContent = "Where food is ... ";
+	subheading.textContent = "Where food is...";
 
 	const emphasis = document.createElement("em");
 	emphasis.classList.add("fancy");
